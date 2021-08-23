@@ -1,7 +1,7 @@
 https://tryhackme.com/room/investigatingwindows
 
 ### Whats the version and year of the windows machine?
-	```ver
+	ver
 	systeminfo
 		#Windows Server 2016 (Datacenter)
 ### Which user logged in last?

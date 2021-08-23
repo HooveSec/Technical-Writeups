@@ -6,15 +6,15 @@ Blue
 Tryhackme.com
 ############
 
-### TASK 1:Scan and learn what exploit this machine is vulnerable to.
-  target: 
-  scan run: namp -A -T4 10.10.119.101
-  nmap =sV 10.10.119.101
+### TASK 1: Scan and learn what exploit this machine is vulnerable to.
+    target: 
+    scan run: namp -A -T4 10.10.119.101
+    nmap =sV 10.10.119.101
 
-  135
-  139
-  445- Windows 7 professional 6701 Service pack 1
-  3389
+    135
+    139
+    445- Windows 7 professional 6701 Service pack 1
+    3389
 
   ### Q1: What ports are open/how many under 1000
     3

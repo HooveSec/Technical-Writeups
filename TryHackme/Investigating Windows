@@ -1,10 +1,10 @@
 https://tryhackme.com/room/investigatingwindows
 
-Whats the version and year of the windows machine?
+### Whats the version and year of the windows machine?
 	ver
 	systeminfo
 		#Windows Server 2016 (Datacenter)
-Which user logged in last?
+### Which user logged in last?
 	wevtutil qe Security /c:30 "/q:*[System [(EventID=4624)]]"
 	#outside of system we see Administrator logged in when seaarching under the TargetUserName
 When did John log onto the system last?

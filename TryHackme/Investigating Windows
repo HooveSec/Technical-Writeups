@@ -1,6 +1,6 @@
 https://tryhackme.com/room/investigatingwindows
 
-### Whats the version and year of the windows machine?
+Whats the version and year of the windows machine?
 	ver
 	systeminfo
 		#Windows Server 2016 (Datacenter)

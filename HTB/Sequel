@@ -1,0 +1,6 @@
+nmap -sC -sV <ip>
+mysql -u root -h <ip>
+show databases;
+use htb;
+show tables;
+select * from htb;
